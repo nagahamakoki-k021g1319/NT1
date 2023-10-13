@@ -123,6 +123,7 @@ void ChatClient()
 		return;
 	}
 
+
 	/* サーバーを名前で取得する */
 	lpHost = gethostbyname(szServer);
 	if (lpHost == NULL) {
